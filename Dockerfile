@@ -10,3 +10,6 @@ RUN echo "#!/bin/bash" > /app/migrate.sh && \
     chmod +x /app/migrate.sh
 
 EXPOSE 80
+
+WORKDIR /app
+CMD npm start

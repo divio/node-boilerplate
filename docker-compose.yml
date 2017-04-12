@@ -4,4 +4,3 @@ web:
     - ".:/app:rw"
   ports:
    - "8000:80"
-  command: bash -c "cd /app && npm start"
