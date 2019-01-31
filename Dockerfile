@@ -1,4 +1,4 @@
-FROM node:10.15.1-alpine
+FROM node:10.15.1
 
 COPY package.json .
 RUN npm install
