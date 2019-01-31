@@ -1,6 +1,6 @@
 {
   "name": "node-boilerplate",
-  "version": "1.0.4",
+  "version": "10.15.1",
   "description": "Node boilerplate for Divio Cloud",
   "main": "index.js",
   "scripts": {
