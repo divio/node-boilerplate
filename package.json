@@ -1,19 +1,9 @@
 {
   "name": "node-boilerplate",
-  "version": "10.15.1",
-  "description": "Node boilerplate for Divio Cloud",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [
-    "node",
-    "boilerplate",
-    "divio"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "node-static": "0.7.11"
   }
