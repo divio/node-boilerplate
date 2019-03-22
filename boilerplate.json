@@ -2,5 +2,10 @@
    "package-name": "node-boilerplate",
    "templates": [],
    "identifier": "node",
-   "version": "10.15.1.4"
+   "version": "10.15.3",
+   "excluded": [
+        "node_modules",
+        "LICENSE.txt",
+        ".DS_Store"
+    ]
 }
