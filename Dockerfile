@@ -1,9 +1,11 @@
 FROM node:10.16.0
 
+# for caching optimisations
+COPY package.json .
+RUN npm install
+
 COPY . /app
 WORKDIR /app
-
-RUN npm install
 
 # noop files for non python projects and local development
 RUN echo "#!/bin/bash" > /app/migrate.sh && chmod +x /app/migrate.sh

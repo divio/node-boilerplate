@@ -2,7 +2,7 @@
    "package-name": "node-boilerplate",
    "templates": [],
    "identifier": "node",
-   "version": "10.16.0.1",
+   "version": "10.16.0.2",
    "excluded": [
         "node_modules",
         "LICENSE.txt",
