@@ -1,7 +1,7 @@
-FROM node:10.16.0
+FROM node:10.16.1
 
 # for caching optimisations
-COPY package*.json .
+COPY package*.json /
 RUN npm install
 
 COPY . /app
