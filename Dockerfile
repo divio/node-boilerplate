@@ -1,4 +1,4 @@
-FROM node:10.16.1
+FROM node:10.16.2
 
 # for caching optimisations
 COPY package*.json /
