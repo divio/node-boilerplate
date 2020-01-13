@@ -1,11 +1,7 @@
 {
-   "package-name": "node-boilerplate",
-   "templates": [],
-   "identifier": "node",
-   "version": "12.13.1.1",
-   "excluded": [
-        "node_modules",
-        "LICENSE.txt",
-        ".DS_Store"
-    ]
+  "package-name": "node-boilerplate",
+  "templates": [],
+  "identifier": "node",
+  "version": "12.14.1.1",
+  "excluded": ["node_modules", "LICENSE.txt", ".DS_Store"]
 }
