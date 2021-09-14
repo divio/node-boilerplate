@@ -1,4 +1,4 @@
-FROM node:14.17.5
+FROM node:14.17.6
 
 # for caching optimisations
 COPY package*.json /
