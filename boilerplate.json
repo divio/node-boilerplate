@@ -2,6 +2,6 @@
   "package-name": "node-boilerplate",
   "templates": [],
   "identifier": "node",
-  "version": "20.11.0.0",
+  "version": "20.11.1.0",
   "excluded": ["node_modules", "LICENSE.txt", ".DS_Store"]
 }
